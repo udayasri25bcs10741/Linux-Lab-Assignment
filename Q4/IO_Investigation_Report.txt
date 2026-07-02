@@ -1,0 +1,16 @@
+Question 4 – File Access and I/O Investigation
+
+1. Open Files
+The lsof command displayed the files currently opened by running processes.
+
+2. Resource Limits
+The ulimit -a command displayed the shell's resource limits such as maximum open files and process limits.
+
+3. Standard Output Redirection
+The output of the ls command was redirected to output.txt using the > operator.
+
+4. Standard Error Redirection
+The error message from ls abc was redirected to error.txt using the 2> operator.
+
+5. Conclusion
+Linux uses file descriptors to manage input and output. Standard output and standard error can be redirected independently, making command-line operations more flexible.

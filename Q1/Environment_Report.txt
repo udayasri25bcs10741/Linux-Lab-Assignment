@@ -1,0 +1,25 @@
+Question 1 – Linux Environment Verification
+
+Command: whoami
+Observation:
+Displays the current username.
+
+Command: groups
+Observation:
+Lists all groups the user belongs to.
+
+Command: echo $SHELL
+Observation:
+Displays the default shell.
+
+Command: pwd
+Observation:
+Displays the current working directory.
+
+Command: ls -la
+Observation:
+Lists all files, including hidden files, with permissions.
+
+Command: ping -c 4 google.com
+Observation:
+Checks network connectivity.

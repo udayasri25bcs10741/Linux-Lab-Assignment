@@ -1,0 +1,16 @@
+Question 3 – File System and Link Analysis
+
+1. Inode Numbers
+The original file and the hard link shared the same inode number. The symbolic link had a different inode number.
+
+2. Hard Link vs Symbolic Link
+A hard link points directly to the file's inode. A symbolic link stores only the path to the original file.
+
+3. Effect of Deleting the Original File
+After deleting the original file, the hard link still worked because it referenced the same inode. The symbolic link became broken because it referenced the deleted file path.
+
+4. Metadata
+The stat command displayed details such as inode number, permissions, owner, file size, and timestamps.
+
+5. Conclusion
+Hard links remain usable even after the original filename is removed, whereas symbolic links depend on the original file's path.

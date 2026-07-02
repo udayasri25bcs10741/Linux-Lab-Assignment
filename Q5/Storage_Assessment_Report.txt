@@ -1,0 +1,19 @@
+Question 5 – Storage Health Assessment and Documentation
+
+1. Available Storage Devices
+The lsblk command displayed all available storage devices and their partitions.
+
+2. Mounted File Systems
+The df -h command displayed mounted file systems along with total, used, and available disk space.
+
+3. Disk Usage Statistics
+The du -sh command displayed the total storage used by the current directory.
+
+4. Inode Utilization
+The df -i command displayed inode usage for each mounted file system.
+
+5. Storage Health Observations
+The system has sufficient available storage space and inodes. The storage devices are mounted correctly and functioning normally.
+
+6. Recommendations
+Regularly monitor disk usage, delete unnecessary files, archive old data, and monitor inode utilization to maintain good storage health.

@@ -1,0 +1,24 @@
+Question 2 – Secure Project Workspace Setup
+
+Directory Structure:
+Project/
+├── docs
+├── src
+├── backup
+└── plan.txt
+
+Permissions Before:
+-rw-r--r--
+
+Permissions After:
+-rw-------
+
+Ownership:
+Owner: udaysri
+Group: udaysri
+
+Umask:
+0022
+
+Explanation:
+The permission 600 allows only the file owner to read and write the file. Other users have no access, improving file security.
